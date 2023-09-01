@@ -18,7 +18,7 @@ export function inicializarCarrinho() {
   btnAbrirCarrinho.addEventListener("click", abrirCarrinho);
 }
 
-export function adicionarProdutoCarrinho() {
+export function adicionarAoCarrinho() {
   const containerProdutosCarrinho =
     document.getElementById("produtos-carrinho");
   const cartaoProdutoCarrinho = `
