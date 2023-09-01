@@ -23,7 +23,7 @@ export function renderizarCatalogo() {
   for (const produtoCatalogo of catalogo){
     document
     .getElementById(`adicionar-${produtoCatalogo.id}`)
-    .addEventListener("click", adicionarAoCarrinho)
+    .addEventListener("click", () => adicionarAoCarrinho(produtoCatalogo.id))
   }
 
 }
