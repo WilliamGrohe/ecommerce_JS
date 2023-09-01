@@ -8,13 +8,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body  class="bg-stone-200 flex flex-col">
-  <section class="fixed top-0 right-[-360px] text-slate-200 bg-slate-950 h-screen w-[360px] p-4 z-50" id="carrinho">
+  <section class="fixed top-0 right-[-360px] text-slate-200 bg-slate-950 h-screen w-[360px] p-4 z-50 duration-200 border-l border-slate-200 flex flex-col justify-between" id="carrinho">
     <div id="cabecalho" class="flex justify-between py-4">
       <p>Meu Carrinho</p>
       <button id="fechar-carrinho"><i class="fa-solid fa-circle-xmark"></i></button>
     </div>
-    <section id="produtos-carrinho">
-      <p>Camisa Larga</p>
+    <section id="produtos-carrinho" class="">
+      <article class="flex bg-slate-100 rounded-lg p-1">
+        <img src="./assets/img/product-1.jpg" alt="Casaco com bolso" class="h-24">
+        <div class="pl-2">
+          <p class="text-slate-950 text-sm">Camisa Larga com bolsos</p>
+          <p class="text-slate-400 text-xs">Tamanho: M</p>
+          <p class="text-green-700 text-lg">$70</p>
+        </div>
+      </article>
       <p>Casaco reto com lã</p>
       <p>Jaqueta com efeito</p>
     </section>
